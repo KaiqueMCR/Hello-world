@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@layer base {
+    html, body {
+        @apply snap-mandatory;
+        @apply snap-y;
+        @apply scroll-smooth;
+    }
+}
+
+@keyframes typing {
+    from { width: 0% }
+    to { width: 60% }
+}
+  
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: 
+    white; }
+}
